@@ -1,21 +1,43 @@
-import math
 import string
 
 # 7
 def taskThird():
 
+    # ОГОЛОШЕННЯ СТРОКИ З РАНДОМНИМИ ЗНАЧЕННЯМИ
     randomString = string.printable
+
+    # ОГОЛОШЕННЯ ПОЛОВИНИ ДОВЖИНИ ВІД СТРОКИ
     randomStringlength = len(randomString)/2
 
-    for i in range(1):
-        for j in range(len(randomString)):
-            index = randomString[j]
-            if j <= randomStringlength:
-                print(str(randomString[j].replace(index, "*")))
-            else:
-                print(str(randomString[j]))
+    print(
+        "\n"+"\\---------------------ЛАБОРАТОРНА РОБОТА №3---------------------//\n"
+    )
+    print("\\---------------------ВИВІД---------------------//\n")
+
+    # ВИКЛИК ЦИКЛУ З ПЕРЕБОРОМ СТРОКИ
+    for i in range(len(randomString)):
+
+        # БЕРЕМО ЗНАЧЕННЯ і-ТОГО СИМВОЛУ З СТРОКИ
+        index = randomString[i]
+
+        # ЯКЩО і МЕНЬШЕ РІВНО ПОЛОВИНІ СТРОКИ
+        if i <= randomStringlength:
+            # ВИВОДИМО "*"
+            print(str(randomString[i].replace(index, "*")))
+        # ІНАКШЕ
+        else:
+            # ВИВОДИМО ПОЧАТКОВИЙ ЕЛЕМЕНТ СТРОКИ
+            print(str(randomString[i]))
+
+    print(
+        "\n"+"\\---------------------ВИСНОВКИ---------------------//\n"+
+        "\nПід час виконання цієї лабораторної роботи я застосував нову для встроєну бібліотеку string для взяття рандомних символів."
+    )
 
     return randomString
+
+    # І ЗНОВУ ПОМИЛКОВО ПОЧАВ РОБИТИ ІНШЕ ЗАВДАННЯ...
+    # ВИДАЛЯТИ ШКОДА(
 
     '''
     def square_root(numbers):

@@ -3,11 +3,12 @@ from PyTasks.taskSecond import taskSecond
 from PyTasks.taskThird import taskThird
 from PyTasks.taskFourth import taskFourth
 
-#---------RUN-TIME---------#
 
-# taskFirst()
-# taskSecond()
-# taskThird()
+'''---------RUN----------'''
+
+taskFirst()
+taskSecond()
+taskThird()
 taskFourth()
 
-#---------RUN-TIME---------#
+'''---------RUN----------'''
