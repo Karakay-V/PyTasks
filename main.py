@@ -11,7 +11,7 @@ from PyTasks.taskSixth import taskSixth
 # taskSecond()
 # taskThird()
 # taskFourth()
-taskFifth()
-# taskSixth()
+# taskFifth()
+taskSixth()
 
 '''---------RUN----------'''
