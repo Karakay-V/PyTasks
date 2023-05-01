@@ -7,10 +7,10 @@ class Person:
     surname = "Karakay"
     nickname = "karakenza"
     birthday = date(2005, 6, 2)
-    def getAge():
+    def getAge(self):
         current = today.year
-        age = current - Person.birthday.year
+        age = current - self.birthday.year
         return age
-    def getFullname():
-        fullname = Person.surname +" "+ Person.firstname
+    def getFullname(self):
+        fullname = self.surname +" "+ self.firstname
         return fullname
