@@ -4,6 +4,9 @@ from PyTasks.taskThird import taskThird
 from PyTasks.taskFourth import taskFourth
 from PyTasks.taskFifth import taskFifth
 from PyTasks.taskSixth import taskSixth
+from PyTasks.taskSeventh.Person import Person
+from PyTasks.taskEighth.Rome import Rome
+from PyTasks.taskEighth.Decimal import Decimal
 
 '''---------RUN----------'''
 
@@ -12,6 +15,9 @@ from PyTasks.taskSixth import taskSixth
 # taskThird()
 # taskFourth()
 # taskFifth()
-taskSixth()
+# taskSixth()
+person = Person
+rome = Rome
+decimal = Decimal
 
 '''---------RUN----------'''
