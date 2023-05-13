@@ -5,12 +5,11 @@ class Decimal:
         num = 0
 
         for i in range(len(str)-1):
+
             if roman[str[i]] < roman[str[i+1]]:
                 num += roman[str[i]]*-1
                 continue
 
             num += roman[str[i]]
-        
         num +=roman[str[-1]]
-        
         return  num

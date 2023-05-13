@@ -25,17 +25,12 @@ from PyTasks.taskEighth.Decimal import Decimal
 # taskFourth()
 # taskFifth()
 # taskSixth()
-
-Linus = modifier("persons.csv", 2)
-
-print(Linus.firstname)
-print(Linus.surname)
-print(Linus.nickname)
-print(Linus.birthday)
-print(Linus.getFullname(Linus))
-print(Linus.getAge(Linus))
-
-# rome = Rome
-# decimal = Decimal
+# Linus = modifier('persons.csv', 2)
+# print(Linus.getFullname(Linus))
+# print(
+# 	str(Rome.toRoman(50))
+# 	+'\n'+
+# 	str(Decimal.toDecimal('C'))
+# )
 
 '''---------RUN----------'''
